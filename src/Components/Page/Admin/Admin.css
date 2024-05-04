@@ -1,0 +1,282 @@
+.admint_title_one {
+    color: rgb(59, 183, 126);
+    font-family: "Quicksand";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.one_text_elmnet_admin h1 {
+    color: rgb(37, 61, 78);
+    font-family: "Quicksand";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 18px;
+}
+
+.one_text_elmnet_admin p {
+    color: rgb(126, 126, 126);
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 25px;
+    width: 405px;
+}
+
+.two_text_elmnet_admin h2 {
+    color: rgb(37, 61, 78);
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.p_text_admin {
+    color: rgb(126, 126, 126);
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 405px;
+    margin-top: 22px;
+}
+
+.there_text_elmnet_admin h2 {
+    color: rgb(59, 183, 126);
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 27px;
+}
+
+.flex_admin_one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.bg_img_damin {
+    background-image: url('../../../assets/Imgs//karta.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+}
+
+.two_elment_flex h3 {
+    color: rgb(59, 183, 126);
+    font-family: "Quicksand";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.two_elment_flex p {
+    color: rgb(126, 126, 126);
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 240px;
+    margin: 18px 0 24px 0;
+}
+
+.two_elment_flex button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 6px 0px rgba(88, 151, 251, 0.16);
+    background: rgb(59, 183, 126);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    border: none;
+    padding: 12px 19px;
+}
+
+.flrx_two_elment_ {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.form_admin h3 {
+    color: rgb(59, 183, 126);
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.form_admin h2 {
+    color: rgb(37, 61, 78);
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px 0 10px 0;
+}
+
+.form_admin p {
+    color: rgb(182, 182, 182);
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.input_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.d_grid {
+    display: grid;
+    grid-gap: 20px;
+    margin-top: -100px;
+}
+
+.d_grid input {
+    border: none;
+    box-sizing: border-box;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    width: 423px;
+    height: 64px;
+    color: rgb(131, 131, 131);
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 21px;
+}
+
+.input_textera textarea {
+    box-sizing: border-box;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    width: 870px;
+    height: 200px;
+    resize: none;
+    margin-top: -160px;
+}
+
+.btn_send_message {
+    border-radius: 10px;
+    background: rgb(37, 61, 78);
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 20px 40px;
+    border: none;
+    margin-top: 37px;
+    margin-bottom: 50px;
+}
+
+@media ( max-width: 1100px ) {
+   .flex_admin_one{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+   }
+
+   .two_text_elmnet_admin{
+    margin-top: 20px;
+   }
+
+   .input_wrapper{
+    display: grid;
+   }
+
+   .d_grid{
+    margin: 0 auto;
+    margin-top: 25px;
+   }
+
+   .ayol_imgs{
+    display: none;
+   }
+
+   .input_textera textarea{
+    margin: 0 auto;
+    width: 100%;
+    margin-top:15px ;
+   }
+
+   .flrx_two_elment_{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+   }
+}
+
+@media ( max-width: 460px ) {
+      .d_grid input{
+        width: 350px;
+      }
+
+      .one_text_elmnet_admin h1{
+        text-align: center;
+      }
+
+      .one_text_elmnet_admin p{
+        text-align: center;
+        width: 305px;
+      }
+
+      .two_text_elmnet_admin h2{
+        text-align: center;
+      }
+
+      .two_text_elmnet_admin p{
+        text-align: center;
+        width: 305px;
+      }
+ }
+

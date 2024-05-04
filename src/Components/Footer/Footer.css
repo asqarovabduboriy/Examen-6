@@ -1,0 +1,184 @@
+.adress {
+    display: grid;
+    grid-gap: 10px;
+    margin-top: 25px;
+}
+
+.adress p {
+    color: rgb(37, 61, 78);
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.one_text .p_text_footer {
+    width: 237px;
+    color: rgb(37, 61, 78);
+    font-family: "Lato";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 22px;
+}
+
+.flex_elment_big {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.two_text ul {
+    list-style: none;
+    display: grid;
+    grid-gap: 13px;
+    margin-top: 20px;
+}
+
+.two_text h4 {
+    color: rgb(37, 61, 78);
+    font-family: "Quicksand";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.two_text ul li {
+    color: rgb(37, 61, 78);
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.two_text p {
+    color: rgb(37, 61, 78);
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.app_program {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.line {
+    box-sizing: border-box;
+    border-top: 1px solid rgb(188, 227, 201);
+    width: 100%;
+    margin-bottom: 36px;
+    margin-top: 45px;
+}
+
+.sub_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call b{
+    color: rgb(59, 183, 126);
+    font-family: "Quicksand";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.call{
+    display: flex;
+    align-items: center;
+
+}
+
+.call p{
+    color: rgb(126, 126, 126);
+font-family: "Lato";
+font-size: 12px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 0.9px;
+text-align: center;
+}
+
+.call svg{
+    font-size: 28px;
+}
+
+.icon_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon_container svg{
+    border-radius: 30px;
+color: rgb(59, 183, 126);
+}
+
+.icon_container h5{
+    color: rgb(37, 61, 78);
+font-family: "Quicksand";
+font-size: 16px;
+font-weight: 700;
+line-height: 19.2px;
+letter-spacing: 0%;
+text-align: right;
+}
+
+.end_p_text{
+color: rgb(126, 126, 126);
+font-family: "Lato";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: right;
+}
+
+@media (max-width: 1000px) {
+    .flex_elment_big{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .sub_footer{
+        display: grid;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .sub_footer p{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .call{
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon_container{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+}

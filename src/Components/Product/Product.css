@@ -1,0 +1,228 @@
+.card {
+    box-sizing: border-box;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    width: 298px;
+    height: 465px;
+}
+
+.card_img_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card_img_wrapper img {
+    width: 246px;
+    height: 246px;
+    margin-top: 10px;
+    object-fit: scale-down;
+}
+
+.rating_card {
+    width: 60px;
+    border-radius: 15px 0px 20px 0px;
+    background: rgb(247, 75, 129);
+    padding: 5px;
+}
+
+.rating_card p {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.category {
+    color: rgb(173, 173, 173);
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text_title {
+    color: rgb(43, 43, 45);
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    text-align: left;
+    max-width: 268px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.star_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.star_card {
+    color: yellow;
+}
+
+.buy_p {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.buy_p b {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(59, 183, 126);
+}
+
+
+.price_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.card_text_content {
+    padding: 0 21px 0;
+}
+
+.price {
+    color: rgb(59, 183, 126);
+    font-family: "Quicksand";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.old_price {
+    color: rgb(173, 173, 173);
+    font-family: "Quicksand";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: line-through;
+}
+
+.price_container button {
+    border-radius: 4px;
+    background: rgba(151, 211, 182, 0.7);
+    color: rgb(59, 183, 126);
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    padding: 9px 20px 13px;
+}
+
+.price_container button:hover {
+    background: rgb(151, 211, 182, 0.8);
+}
+
+.product_fleex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 115px;
+}
+
+.select_category {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.select_category h1 {
+    color: rgb(37, 61, 78);
+    font-family: "Quicksand";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn_wrapper{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.btn_wrapper button{
+    color: rgb(37, 61, 78);
+font-family: "Quicksand";
+font-size: 16px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+background-color: transparent;
+}
+
+
+.btn_wrapper button:active{
+    color: rgb(59, 183, 126);
+}
+
+.btn_wrapper button:hover{
+    color: rgb(59, 183, 126);
+}
+
+@media (max-width: 850px) {
+    .select_category{
+        display: grid;
+        justify-content: center;
+    }
+
+    .select_category h1{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 580px) {
+    .select_category{
+        display: grid;
+        justify-content: center;
+    }
+
+    .select_category h1{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .btn_wrapper{
+        display: flex;
+        flex-direction:column;
+    }
+}

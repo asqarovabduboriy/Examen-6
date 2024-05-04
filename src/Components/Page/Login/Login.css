@@ -1,0 +1,122 @@
+.login_form {
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.Logo_login {
+    display: flex;
+    justify-content: center;
+}
+
+.login_form p {
+    color: rgb(68, 68, 68);
+    font-family: "Segoe UI";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.login_form input {
+    width: 338px;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    margin-bottom: 29px;
+    background: rgb(255, 255, 255);
+    padding: 15px 13px;
+}
+
+.wrapper_chekbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.wrapper_chekbox input {
+    margin: 0;
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    box-shadow: inset 0px -15px 10px -11px rgba(0, 0, 0, 0.05), 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0);
+}
+
+.wrapper_chekbox p {
+    margin: 0;
+    color: rgb(119, 119, 119);
+    font-family: "Segoe UI";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Logo_login {
+    padding: 15px 0 15px 0;
+}
+
+.btn_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+
+.btn_wrapper button {
+    border-radius: 5px;
+    background: rgb(59, 183, 126);
+    color: rgb(255, 255, 255);
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 12px 21px;
+    border: none;
+}
+.btn_wrapper button:hover{
+    background-color:rgba(59, 183, 126,0.8) ;
+    color: white;
+}
+
+.btn_wrapper button:disabled{
+    background-color: white;
+    color: red;
+    cursor:no-drop;
+}
+
+.btn_wrapper p {
+    margin: 0;
+    color: rgb(119, 119, 119);
+    font-family: "Segoe UI";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+@media (max-width: 430px) {
+    .login_form {
+        width: 100%;
+    }
+
+    .login_form input {
+        width: 100%;
+    }
+}

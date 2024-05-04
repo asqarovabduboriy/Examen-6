@@ -1,0 +1,130 @@
+.sub_header {
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    border-top: 1px solid rgb(236, 236, 236);
+    background: rgb(255, 255, 255);
+    padding: 14px;
+}
+
+.seelect__div {
+    border-radius: 5px;
+    background: rgb(59, 183, 126);
+    width: 255px;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.seelect__div select {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.seelect__div select::before .seelect__div select:active {
+    border: none;
+}
+
+.seelect__div svg {
+    color: white;
+    font-size: 17px;
+}
+
+.seelect__div p {
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.select__wrapper_container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.select__wrapper_container p {
+    color: rgb(37, 61, 78);
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.select__wrapper_container svg {
+    color: rgb(59, 183, 126);
+}
+
+.ul_wrapper ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.ul_wrapper ul li {
+    color: rgb(37, 61, 78);
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.ul_wrapper ul li:hover {
+    color: rgb(59, 183, 126);
+}
+
+.sub_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aloqa__container{
+    display: flex;
+}
+
+.aloqa__container svg{
+    font-size: 36px;
+}
+
+.aloqa__container h4{
+    color: rgb(59, 183, 126);
+font-family: "Quicksand";
+font-size: 26px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.aloqa__container p{
+    color: rgb(126, 126, 126);
+font-family: "Lato";
+font-size: 12px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 0.9px;
+text-align: left;
+}
+
+@media (max-width: 1100px) {
+     .sub_header{
+        display: none;
+     }
+}

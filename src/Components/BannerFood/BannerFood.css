@@ -1,0 +1,163 @@
+.bg_img {
+    background-image: url('../../assets/Imgs/Banner3.png');
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 417px;
+    width: 100%;
+    margin-top: 115px;
+}
+
+.banner_text_content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.wrapper_text_kontent {
+    margin-top: 83px;
+    margin-left: 78px;
+}
+
+.banner_text_content h2 {
+    color: rgb(37, 61, 78);
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 529px;
+}
+
+.banner_text_content p {
+    margin-top: 20px;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner_text_content span {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(59, 183, 126);
+}
+
+.banner_form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 46px;
+}
+
+.banner_form input {
+    border-radius: 50px;
+    width: 473px;
+    background: rgb(255, 255, 255);
+    color: rgb(131, 131, 131);
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 23px 58px;
+    border: none;
+}
+
+.banner_form button {
+    position: absolute;
+    left: 290px;
+    border-radius: 50px;
+    background: rgb(59, 183, 126);
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 22px 40px;
+    border: none;
+    height: 65px;
+}
+
+.img_wrapper_bnaner {
+    margin-top: 71px;
+}
+
+@media (max-width:1100px) {
+    .banner_text_content {
+        display: grid;
+        justify-content: center;
+    }
+
+    .img_wrapper_bnaner {
+        display: none;
+    }
+}
+
+@media (max-width:580px) {
+    .banner_text_content {
+        display: grid;
+        justify-content: center;
+    }
+
+    
+
+    .banner_form input {
+        width: 400px;
+    }
+
+    .banner_form {
+        margin: 0 auto;
+    }
+
+    .wrapper_text_kontent {
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .wrapper_text_kontent h2 {
+        text-align: center;
+        width: 400px;
+    }
+
+    .wrapper_text_kontent p {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .banner_form{
+       display: grid;
+    }
+
+    .banner_form button{
+        top: 70px;
+        left: 130px;
+    }
+
+}
+
+@media (max-width:450px) {
+    .banner_form input{
+        width: 350px;
+    }
+
+    .wrapper_text_kontent h2{
+        width: 350px;
+        margin-left: -15px;
+    }
+
+    .banner_form button{
+        top: 70px;
+        left: 100px;
+    }   
+}
